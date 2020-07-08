@@ -8,7 +8,7 @@ TEST_NETCONNECT_HOST="144.144.144.144"
 SOURCES_MIRRORS_FILE="sources_mirrors.list"	
 MIRRORS_SPEED_FILE="mirrors_speed.list"
 
-function get_ping_speed()	#return average ping $1 time
+function get_ping_speed	#return average ping $1 time
 {
 	local speed=`ping -W1 -c1 $1 2> /dev/null | grep "^rtt" |  cut -d '/' -f5`
 	echo $speed
