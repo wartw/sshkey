@@ -4,7 +4,7 @@ yum install wget unzip zip -y
 apt install wget unzip zip -y
 wget https://raw.githubusercontent.com/wartw/sshkey/master/sources_mirrors.list
 #server test
-TEST_NETCONNECT_HOST="144.144.144.144"
+TEST_NETCONNECT_HOST="www.baidu.com"
 SOURCES_MIRRORS_FILE="sources_mirrors.list"	
 MIRRORS_SPEED_FILE="mirrors_speed.list"
 
