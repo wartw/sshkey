@@ -5,6 +5,13 @@
 ```
 curl -O https://raw.githubusercontent.com/wartw/sshkey/master/install.sh
 sh install.sh
+OR
+wget https://raw.githubusercontent.com/wartw/sshkey/master/install.sh
+sh install.sh
+OR
+wget https://raw.githubusercontent.com/wartw/sshkey/master/install.sh
+bash install.sh
+OR
+curl -O https://raw.githubusercontent.com/wartw/sshkey/master/install.sh
+bash install.sh
 ```
-
-
