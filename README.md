@@ -19,7 +19,7 @@ bash install.sh
 # 網路流量監控關機
 ```
 雙向流量
-cd /home&mkdir net&cd net&wget https://raw.githubusercontent.com/wartw/sshkey/master/network.sh
+cd /home & mkdir net & cd net & wget https://raw.githubusercontent.com/wartw/sshkey/master/network.sh
 單一方向超過
-cd /home&mkdir net&cd net&wget https://raw.githubusercontent.com/wartw/sshkey/master/network2.sh
+cd /home & mkdir net & cd net & wget https://raw.githubusercontent.com/wartw/sshkey/master/network2.sh
 ```
