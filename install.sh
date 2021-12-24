@@ -1,5 +1,5 @@
 #! /bin/sh
-
+yum install epel-* -y
 yum install wget unzip zip vim nload iftop -y
 apt install wget unzip zip vim  nload iftop -y
 wget https://raw.githubusercontent.com/wartw/sshkey/master/sources_mirrors.list
