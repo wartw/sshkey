@@ -1,7 +1,7 @@
 #! /bin/sh
 yum install epel-* -y
-yum install wget unzip zip vim nload iftop -y
-apt install wget unzip zip vim  nload iftop -y
+yum install wget unzip zip vim nload iftop htop -y
+apt install wget unzip zip vim  nload iftop htop -y
 wget https://raw.githubusercontent.com/wartw/sshkey/master/sources_mirrors.list
 #server test
 TEST_NETCONNECT_HOST="www.baidu.com"
