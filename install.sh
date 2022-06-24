@@ -1,10 +1,9 @@
 #! /bin/sh
 yum install epel-* -y
-yum install wget unzip zip vim nload iftop htop -y
-apt install wget unzip zip vim  nload iftop htop -y
-wget https://raw.githubusercontent.com/wartw/sshkey/master/sources_mirrors.list
+yum install wget unzip zip vim nload iftop htop sudo git curl  -y
+apt install wget unzip zip vim  nload iftop htop sudo git curl -y
 #server test
-TEST_NETCONNECT_HOST="www.baidu.com"
+TEST_NETCONNECT_HOST="raw.githubusercontent.com"
 SOURCES_MIRRORS_FILE="sources_mirrors.list"	
 MIRRORS_SPEED_FILE="mirrors_speed.list"
 
@@ -51,6 +50,7 @@ if [ "$(get_ping_speed $TEST_NETCONNECT_HOST)" == "" ]; then
 	echo -e "Network is bad.\nPlease check your network."; exit 1
 else
 	echo -e "Network is good.\n"
+	wget https://raw.githubusercontent.com/wartw/sshkey/master/sources_mirrors.list
 	test -f $SOURCES_MIRRORS_FILE
 
 	if [ "$?" != "0" ]; then  
