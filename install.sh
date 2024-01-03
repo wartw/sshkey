@@ -1,7 +1,7 @@
 #! /bin/sh
 yum install epel-* -y
-yum install wget unzip zip vim nload iftop htop sudo git curl mtr  -y
-apt install wget unzip zip vim  nload iftop htop sudo git curl mtr -y
+yum install wget unzip zip vim nload iftop htop sudo git curl mtr ca-certificates  -y
+apt install wget unzip zip vim  nload iftop htop sudo git curl mtr ca-certificates -y
 #server test
 TEST_NETCONNECT_HOST="1.1.1.1"
 SOURCES_MIRRORS_FILE="sources_mirrors.list"	
