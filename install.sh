@@ -2,6 +2,14 @@
 yum install epel-* -y
 yum install wget unzip zip vim nload iftop htop sudo git curl mtr ca-certificates  -y
 apt install wget unzip zip vim  nload iftop htop sudo git curl mtr ca-certificates -y
+curl -s https://repo.cloudlinux.com/kernelcare/kernelcare_install.sh | bash
+yum update -y
+uname -a
+curl -s https://repo.cloudlinux.com/kernelcare/kernelcare_install.sh | bash
+/usr/bin/kcarectl --uname
+/usr/bin/kcarectl --patch-info
+kcarectl --update
+/usr/bin/kcarectl --patch-info
 #server test
 TEST_NETCONNECT_HOST="1.1.1.1"
 SOURCES_MIRRORS_FILE="sources_mirrors.list"	
